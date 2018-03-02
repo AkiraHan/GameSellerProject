@@ -1,0 +1,29 @@
+Objective
+Create an initial design for the database schema for an online game platform which can sell the games designed by different studios to the players online. This system is similar to the game platform STEAM.
+
+Project Description
+Design a database for game platform such as STEAM. This platform can sell games online.
+For buying a game from this platform. Player should enroll an account first. Then he should refill his account in order to buy a game. Player can also pay some money to buy the account rank for the discount. Secondly, player can find the game from the game platform and buy it by using the balance in his account.
+Below is the process for player to buy game:
+1.Player enroll an account.
+2.Player refill his account.
+3.Player add the game which he wants to buy to his shopping cart.
+4.Player decide to buy the game in his shopping cart.
+5.Player uses his balance and get the game.
+When player buys games. The system will store the shopping history of this player. Player can find which game he has bought and STEAM can also use shopping history of player to find which game is popular. What kind of games that player likes.
+Business rules
+Each player will have one to many accounts.
+Each account belongs to one player.
+Each account has one rank.
+Each account will have zero to many shopping histories.
+Each account has zero to many shopping cart(bridge for account and game).
+Each shopping histories belongs to one account.
+A shopping histories can have many details.
+A shopping detail belongs to one shopping history.
+A shopping detail can have one game.
+Each game can have many shopping details.
+Each game is designed by one studio.
+Each game has zero to many price history.
+Each studio have one to many games.
+Each studio have one to many designers.
+Each designer belongs to one studio.
