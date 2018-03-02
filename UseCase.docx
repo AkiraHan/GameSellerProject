@@ -1,0 +1,30 @@
+Use case #1b 
+A player request the name of game in his shopping cart and which price is higher than 100.
+
+Use case #2a 
+A player wants to enroll an account.
+
+Use case #2b 
+A player requests the name of all games he has bought are designed by “Ubisoft”.
+
+Use case #3a
+A player wants to refill his account.
+
+Use case #3b
+The player wants to find the game he can buy (balance is enough)
+
+Use case #4a 
+The price of game changed and system will create a price history of this game.
+Write a sequence of create price history number automatically.
+
+Use case #4b 
+The studio wants to know the price of which game it designed has declined before.
+
+Use case #5a
+The player confirm that he buys the games in his shopping_cart. Develop a procedure to complete this.
+When player confirm. It will create a shopping history and delete the data about this player stored in shopping_cart. And shopping detail of this shopping history will also create. And change the balance of the account.
+The total for this shopping history is not 98 + 128 = 226 because the account of this player is rank gold. He has discount 0.7. So the total is 226*0.7 = 158.2.
+And the data of game of this player in shopping cart has been deleted.
+
+Use case #5b 
+STEAM wants to know which type of game can earn more money.
